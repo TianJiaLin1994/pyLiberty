@@ -251,11 +251,7 @@
 
 ####`hold_rising` `hold_falling`
 
-<img src="assets/image/image-20200615164809315.png" alt="image-20200615164809315" style="zoom:200%;" />
-
-####`skew_rising ` `skew_falling `
-
-<img src="assets/image/image-20200615164939107.png" alt="image-20200615164939107" style="zoom:200%;" />
+####`skew_rising ` `skew_falling
 
 ####`non_seq_setup_rising  ` `non_seq_setup_falling  `
 
@@ -263,11 +259,9 @@
 
 ####`nochange_high_high `  `nochange_high_low ` `nochange_low_high ` `nochange_low_low `
 
-![image-20200615165245536](assets/image-20200615165245536.png)
-
 ####`recovery_rising ` `recovery_falling` 
 
 ####`removal_rising ` `removal_falling`
 
-![image-20200615165053488](assets/image/image-20200615165053488.png)
+
 
