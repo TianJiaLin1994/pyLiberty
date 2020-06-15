@@ -231,3 +231,43 @@
 - `k_volt_cell_fall_transition`
 
 
+
+### timing_sense
+
+![image-20200615162407755](assets/image/image-20200615162407755.png)
+
+| Example | timing_sense   | Input   | Output                        |
+| ------- | -------------- | ------- | ----------------------------- |
+| AND     | positive_unate | Riseing | Rise                          |
+|         |                | Falling | Fall                          |
+| NAND    | negative_unate | Rising  | Fall                          |
+|         |                | Falling | Rise                          |
+| XOR     | non_unate      | Rising  | Rise (Depends on other input) |
+|         |                | Falling | Fall (Depends on other input) |
+
+### timing_type
+
+####`setup_rising  ` `setup_falling `
+
+####`hold_rising` `hold_falling`
+
+<img src="assets/image/image-20200615164809315.png" alt="image-20200615164809315" style="zoom:200%;" />
+
+####`skew_rising ` `skew_falling `
+
+<img src="assets/image/image-20200615164939107.png" alt="image-20200615164939107" style="zoom:200%;" />
+
+####`non_seq_setup_rising  ` `non_seq_setup_falling  `
+
+####`non_seq_hold_rising  ` `non_seq_hold_falling  `
+
+####`nochange_high_high `  `nochange_high_low ` `nochange_low_high ` `nochange_low_low `
+
+![image-20200615165245536](assets/image-20200615165245536.png)
+
+####`recovery_rising ` `recovery_falling` 
+
+####`removal_rising ` `removal_falling`
+
+![image-20200615165053488](assets/image/image-20200615165053488.png)
+
